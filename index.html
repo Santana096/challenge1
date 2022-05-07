@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/ec7a2b3069.js" crossorigin="anonymous"></script>
+    <script defer type="text/javascript" src="F:\ONE\LOGICA DE PROGRMACION\Challenge1/script.js"></script>
+ </head>
+ <body>
+   <!-- caja contenedora, padre -->
+  <div class="container">
+     <!-- logo alura -->
+    <div class="box-1">
+      <img class="logo-img" src="F:\ONE\LOGICA DE PROGRMACION\Challenge1\imagenes\Logo.png" alt="logo alura">
+        <!-- titulo -->
+      <h1 class="title">Programa para Encriptar texto</h1>
+
+    </div>
+
+    <!-- caja izquierda,texto -->
+    <div class="box-2">
+      <textarea type="text" class="input-text" cols="40" rows="6" placeholder="Ingrese el texto aqui" ></textarea>
+
+     </div>
+
+
+     <!-- caja izquierda,botones -->
+    <div class="box-3">
+    <p class="parrafo">Solo letras minusculas y sin acentos</p>
+    <button id="btn1" type="button" onclick="btnencriptar()">Encriptar</button>
+    <button id="btn2" type="button" onclick="btndesencrptar()">Desencriptar</button>
+    </div>
+
+  
+    <!-- caja derecha -->
+   <div class="box-4">
+      
+     <img   src="F:\ONE\LOGICA DE PROGRMACION\encriptador\assets/Muñeco.svg" alt="muneco" id="nino">
+     <h1 id="text1">Ningun mensaje fue procesado</h1>
+     <textarea type="text"  id="textE" cols="30" rows="10" class="input-text-area" >El texto Encriptado o Desencriptado aparecera aqui</textarea>
+
+     <button  id="copy" type="button" name="button" onclick="copiar()">Copiar</button>
+    </div>
+
+  </div>
+  
+ </body>
+ </html>

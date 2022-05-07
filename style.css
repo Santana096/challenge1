@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F3F5FC;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  background-color: rgb(241, 236, 236);
+  margin: auto;
+  width: 960px;
+  height: 650px;
+  padding: 5px;
+}
+
+.box-1{
+  width: 100%;
+  float: left;
+  background-color: rgb(216, 216, 226);
+  padding: 0;
+  border-radius: 20px;
+}
+
+.box-2{
+  width: 70%;
+  height:68%;
+  float: left;
+  background-color: rgb(231, 238, 238);
+  border-radius: 15px;
+  border: 3px solid royalblue;
+  }
+
+  .box-3{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 15px;
+     
+  }
+
+  .box-4{
+    float: right;
+    width: 30%;
+    height:    86%;
+    margin-top: -46%;
+    padding-bottom: -20px;
+    border-radius: 15px;
+     
+  
+  }
+
+
+
+
+
+
+ .icons{
+   float: right;
+   background-color: rgb(203, 209, 231);
+   text-align: right;
+   margin: 30px;
+   margin-left: 700px;
+   margin-top: -50px;
+   margin-bottom:  
+ }
+
+ #iconos{
+  color: rgb(51, 118, 177);  
+  margin: 9px;
+  text-decoration: none;
+   
+}
+
+
+ .logo-img{
+  float: inherit;
+  margin-top: 2%;
+}
+
+
+.title{
+  margin-top: 2%;
+  margin-left: 20%;
+  color: rgb(11, 13, 14);
+}
+
+
+
+ .parrafo{
+   display: block;
+   margin-left: 50px;
+ }
+
+
+ 
+
+
+.input-text{
+  outline: none;
+  border: none;
+  background-color: rgb(226, 240, 240); 
+  text-align: center;
+  width: 80%;
+  height:auto;
+  margin-top: 10% ;
+  margin-left: 20%;
+  font-size: 25px;
+
+};
+
+#nino{
+  margin-top: 20%;
+  width: 90%;
+  height: auto;
+  margin-left: 1%;
+   
+};
+
+#text1{
+  margin-left: 5%;
+  margin-left: 10%;
+
+}
+
+#text2{
+  height: 90px;
+  outline: none;
+  border: none;
+  margin-top: 10%;
+  margin-left: 15px;
+  text-align: center;
+
+}
+
+#btn1{
+  padding: 5%;
+  width: 30%;
+  height: 40%;
+  margin-left: 12%;
+  border-radius: 15px;
+  background-color: #0a3871;
+  font-size: 20px;
+   
+}
+
+#btn2{
+  padding: 5%;
+  width: 30%;
+  height: 40%;
+  margin-left: 10%;
+  border-radius: 15px;
+  background-color: #3489f0;
+  font-size: 20px;
+
+}
+
+#copy{
+  float: right;
+  height: 50px;
+  width: 35%;
+  margin-right: 100px;
+  border-radius: 45px;
+  display: none;
+  color: #18191a;
+  background-color: rgb(19, 224, 224);
+  
+}
+
+#btn1:hover {
+  background-color: rgb(14, 23, 63);
+  cursor: pointer;
+  
+
+}
+
+#btn2:hover{
+  background-color: rgb(58, 87, 150);
+  cursor: pointer;
+}
+
+#copy:hover{
+  background-color: rgb(14, 102, 102);
+
+}
